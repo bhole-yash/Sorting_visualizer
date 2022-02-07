@@ -38,7 +38,10 @@ export default class SortingVisualizer extends React.Component {
 
     }
     selectionSort(){
+        const javaScriptSortedArray = this.state.array.slice().sort((a,b)=>a-b);
+        const sortedArray =sortingAlgorithms.selectionSort(this.state.array);
 
+        console.log(sortingAlgorithms.arraysAreEqual(javaScriptSortedArray, sortedArray),this.state.array);
     }
     mergeSort(){
 
