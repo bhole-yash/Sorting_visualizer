@@ -1,0 +1,13 @@
+.array-container {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    bottom: 10px;
+  }
+  
+  .array-bar {
+    width: 2px;
+    background-color: violet;
+    display: inline-block;
+    margin: 0 1px;
+  }
